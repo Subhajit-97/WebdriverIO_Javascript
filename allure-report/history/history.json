@@ -1,0 +1,1 @@
+{"d3dcc33448b9c848788744b9d7ea8f29":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"322f0c472d5538c8","status":"broken","statusDetails":"element (\"//h6[text()='Dashboa']\") still not existing after 5000ms","time":{"start":1718546342681,"stop":1718546356131,"duration":13450}}]}}

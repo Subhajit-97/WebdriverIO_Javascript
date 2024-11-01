@@ -1,0 +1,28 @@
+{
+  "name": "webdriverio_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js",
+    "allure-reporter": "allure generate  ./allure-report --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.38.2",
+    "allure-commandline": "^2.29.0",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.38.2",
+    "@wdio/local-runner": "^8.38.2",
+    "@wdio/mocha-framework": "^8.38.2",
+    "@wdio/spec-reporter": "^8.38.2",
+    "@wdio/sync": "7.27.0",
+    "chromedriver": "126.0.0",
+    "wdio-chromedriver-service": "8.1.1"
+  }
+}
